@@ -38,17 +38,15 @@ export default function NavbarMain() {
         </a>
       </Typography>
       <Typography as="li" className="p-1 font-bold py-2  ">
-        <a href="/events" className="flex items-center">
-          Events
+        <a href="/contactus" className="flex items-center">
+          Contact Us
         </a>
       </Typography>
-      <Typography as="li" className="p-1 font-bold py-2  ">
-        <Button>
-          <a href="/give" className="flex items-center">
-            Join Us
-          </a>
-        </Button>
-      </Typography>
+      <a href="/signup" className=" ">
+        <Button className="bg-white text-black ">
+          <Typography className=" font-bold  text-md ">Sign Up</Typography>{" "}
+        </Button>{" "}
+      </a>
     </ul>
   );
 

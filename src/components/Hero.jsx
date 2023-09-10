@@ -30,7 +30,16 @@ function Hero() {
             >
               Get basketball training from the best
             </Typography>
-            <Button className="mt-10 bg-black ">Learn More</Button>
+            <Typography
+              variant="lead"
+              color="white"
+              className=" md:text-2xl font-bold text-lg mt-5"
+            >
+              Private or Group Lessons
+            </Typography>
+            <a href="/signup">
+              <Button className="mt-10 bg-black ">Learn More</Button>
+            </a>
           </div>
         </div>
       </div>

@@ -1,10 +1,11 @@
 import React from "react";
 import { Typography } from "@material-tailwind/react";
+import { Link as ScrollLink, Element } from "react-scroll";
 
 function EricHero() {
   return (
     <>
-      <div className="lg:grid grid-cols-2 flex-col py-10 gap-3  ">
+      <div id="eric" className="lg:grid grid-cols-2 flex-col py-10 gap-3  ">
         {" "}
         <div className="lg:col-start-1 flex flex-col gap-5 items-center justify-center ">
           <h1 className="text-3xl font-semibold text-blue-700">COACH ERIC</h1>

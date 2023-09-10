@@ -37,9 +37,11 @@ export default function VideoBack() {
             >
               Basketball Training and Camps in Seoul, South Korea.
             </Typography>
-            <Button className="md:mt-10 bg-white text-black  mt-2 ">
-              CONTACT US
-            </Button>
+            <a href="/signup">
+              <Button className="md:mt-10 bg-white text-black  mt-2 ">
+                Sign Up
+              </Button>
+            </a>
           </div>
         </div>
       </div>

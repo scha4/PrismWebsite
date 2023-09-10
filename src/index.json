@@ -6,27 +6,7 @@
         "id": "1",
         "name": "Coach Eric",
         "position": "Trainer",
-        "description": {
-          "bio_sections": [
-            {
-              "section_title": "PRO CAREER",
-              "section_content": [
-                "17 PRO PLAYER (USA, S.AMERICA, EUROPE, ASIA)"
-              ]
-            },
-            {
-              "section_title": "NATIONAL TEAM",
-              "section_content": [
-                "KOREA MENS 5v5 NAT'L TEAM",
-                "GUANGZHO ASIA GAMES SILVER MEDAL",
-                "FIBA 3X3 NAT'l TEAM",
-                "2X FIBA 3x3 WORLD CUP",
-                "TOKYO OLYMPIC QUALIFIERS"
-              ]
-            }
-          ]
-        },
-
+        "url": "<a href='/trainers'>Learn More </a>",
         "image": "/CE1.jpg"
       },
       {
@@ -34,7 +14,7 @@
         "name": "Coach Dan",
         "position": "Trainer",
         "description": "A website for a korean OEM service company called Mandeulja.  This website was created using React, Tailwind CSS, and EmailJs. ",
-
+        "url": "<a href='/trainers'>Learn More </a>",
         "image": "/CD1.jpg"
       },
       {
@@ -42,7 +22,7 @@
         "name": "Coach Wonjun",
         "position": "Trainer",
         "description": "A website for a korean OEM service company called Mandeulja.  This website was created using React, Tailwind CSS, and EmailJs. ",
-
+        "url": "<a href='/trainers'>Learn More </a>",
         "image": "/prismWord.png"
       }
     ]

@@ -6,6 +6,7 @@ import Hero2 from "../components/Hero2";
 import Footer from "../components/Footer";
 import LogoHero from "../components/LogoHero";
 import StaffHero from "../components/StaffHero";
+import LocationHero from "../components/LocationHero";
 
 function HomePage() {
   return (
@@ -17,6 +18,7 @@ function HomePage() {
       <Hero />
       <LogoHero />
       <StaffHero />
+      <LocationHero />
       <Footer />
     </>
   );

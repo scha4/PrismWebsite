@@ -10,7 +10,7 @@ function TrainersPage() {
     <>
       <NavbarMain />
       <TPhero />
-      <EricHero />
+      <EricHero id="eric" />
       <DanHero />
       <Wonjun />
       <Footer />

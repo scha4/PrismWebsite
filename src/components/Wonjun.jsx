@@ -3,6 +3,7 @@ import React from "react";
 function Wonjun() {
   return (
     <>
+      <div className="border-b border-gray-500 my-4"></div>
       <div className="lg:grid grid-cols-2 flex-col py-10 gap-3  ">
         {" "}
         <div className="col-start-1 flex flex-col gap-5 items-center justify-center ">

@@ -3,6 +3,7 @@ import React from "react";
 function DanHero() {
   return (
     <>
+      <div className="border-b border-gray-500 my-4"></div>
       <div className="lg:grid grid-cols-2 flex-col py-10 gap-3  ">
         <div className=" lg:col-start-1 lg:flex item-center justify-center mb-10 flex py-4 ">
           <img src="/danPic3.jpg" className="lg:w-full px-4  " />

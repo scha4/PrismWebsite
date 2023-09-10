@@ -8,18 +8,20 @@ import {
   Tooltip,
 } from "@material-tailwind/react";
 import config from "../index.json";
+
 function StaffHero() {
   const staff = config.staff;
+
   return (
     <>
       <div className="bg-black py-20">
         <div className="font-bold flex justify-center text-4xl mb-6 text-white">
           Meet The Coaches
         </div>
-        <div className="lg:flex gap-4 items-center justify-center ">
+        <div className="lg:flex gap-4 items-center justify-center">
           {staff.staff.map((item) => (
-            <Card className="w-96" key={item.id}>
-              <div className="flex flex-col px-4 py-4 gap-1 item-center justify-center">
+            <Card className="lg:w-96 border-2 border-black mt-2" key={item.id}>
+              <div className="flex flex-col px-4 py-4  item-center justify-center">
                 <img
                   src={item.image}
                   alt="leaderImage"
@@ -34,7 +36,10 @@ function StaffHero() {
                 <div className="text-lg font-normal text-center">
                   {item.position}
                 </div>
-                {/* <div>{item.description.bio_sections.section_title}</div> */}
+                <div
+                  className="text-lg font-normal text-center text-blue-500 hover:text-blue-700"
+                  dangerouslySetInnerHTML={{ __html: item.url }}
+                ></div>
               </div>
             </Card>
           ))}

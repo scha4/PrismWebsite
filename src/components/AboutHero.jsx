@@ -11,17 +11,13 @@ function AboutHero() {
           src="./campPic2.jpg"
         />
 
-        <div className="absolute inset-0 grid h-full w-5/6 place-items-center text-center  ">
-          <div className="w-full   ml-20 ">
-            <Typography
-              variant="lead"
-              color="white"
-              className=" md:text-5xl font-bold text-3xl "
-            >
-              ABOUT US
+        <figcaption className="absolute text-5xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          <div className="text-center  ">
+            <Typography className="lg:text-4xl text-2xl font-bold text-white">
+              WHO WE ARE
             </Typography>
           </div>
-        </div>
+        </figcaption>
       </div>
     </>
   );
