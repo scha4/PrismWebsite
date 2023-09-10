@@ -27,11 +27,13 @@ export default function NavbarMain() {
         className="p-1 font-bold py-2   "
         onClick={() => setDirectoryOpen((prev) => !prev)}
       >
-        <span className="flex items-center ">About Us</span>
+        <a href="/aboutus" className="flex items-center ">
+          About Us
+        </a>
       </Typography>
 
       <Typography as="li" className="p-1 font-bold  py-2 ">
-        <a href="getinvolved" className="flex items-center ">
+        <a href="/trainers" className="flex items-center ">
           Trainers
         </a>
       </Typography>
@@ -51,9 +53,14 @@ export default function NavbarMain() {
   );
 
   return (
-    <Navbar className="inset-0 z-10  mx-auto max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4 bg-black">
+    <Navbar
+      style={{ backgroundColor: "#000" }}
+      className="inset-0 z-10  mx-auto max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4 bg-black"
+    >
       <div className="container mx-auto flex items-center justify-between z-10 ">
-        <img src="./prismWord.png" className="w-24 h-18  " />
+        <a href="/">
+          <img src="./prismWord.png" className="w-24 h-18  " />
+        </a>
 
         <div className="hidden lg:block ">{navList}</div>
 
