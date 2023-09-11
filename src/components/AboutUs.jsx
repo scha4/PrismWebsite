@@ -7,41 +7,40 @@ function AboutUs() {
         <div className="flex items-center justify-center">
           <img src="./prismLogo.png" className="w-48 h-48 " />
         </div>
-        <div className="mx-4 text-lg">
-          <div className="font-bold">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,{" "}
+        <div className="mx-8 text-lg">
+          <div className="font-bold">What is Prism?</div>
+          <div className="mt-2">
+            Prism Academy is a consulting firm that uses basketball and sports
+            in general as a tool for life. We believe that through sports you
+            can learn 5 essential tools for success and confidence. Fostering
+            growth and vision and instilling a passion that will endure! We at
+            prism believe the basketball/sports is the greatest metaphor for
+            life, using this as our motto, our goal is to give back what
+            basketball and sports has given us!
           </div>
-          <div>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum." "Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum."
+        </div>
+        <div
+          className="flex flex-col py-20 
+
+        divide-y divide-solid divide-black lg:mx-10 mx-5"
+        >
+          <div className="font-normal lg:text-3xl mb-5 text-center italic">
+            5 Essential tools for success
           </div>
-          <div>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum." "Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum."
+          <div className="py-5  ">
+            <div className="font-bold lg:text-3xl ">Growth</div>
+          </div>
+          <div className="py-5  ">
+            <div className="font-bold lg:text-3xl">Preparation </div>
+          </div>
+          <div className="py-5  ">
+            <div className="font-bold lg:text-3xl">Effort</div>
+          </div>
+          <div className="py-5  ">
+            <div className="font-bold lg:text-3xl">Tension</div>
+          </div>
+          <div className="py-5  ">
+            <div className="font-bold lg:text-3xl">Balance</div>
           </div>
         </div>
       </div>
