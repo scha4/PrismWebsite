@@ -7,19 +7,23 @@ import Footer from "../components/Footer";
 import LogoHero from "../components/LogoHero";
 import StaffHero from "../components/StaffHero";
 import LocationHero from "../components/LocationHero";
+import CurrentEvent from "../components/CurrentEvent";
 
 function HomePage() {
   return (
     <>
-      <NavbarMain />
-      <VideoBack />
+      <div className="font-display">
+        <NavbarMain />
+        <CurrentEvent />
+        <VideoBack />
 
-      <Hero2 />
-      <Hero />
-      <LogoHero />
-      <StaffHero />
-      <LocationHero />
-      <Footer />
+        <Hero2 />
+        <Hero />
+        <LogoHero />
+        <StaffHero />
+        <LocationHero />
+        <Footer />
+      </div>
     </>
   );
 }

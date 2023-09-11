@@ -19,26 +19,28 @@ function Hero() {
             <Typography
               variant="lead"
               color="white"
-              className=" md:text-4xl font-bold text-2xl "
+              className=" md:text-4xl font-bold text-2xl font-display "
             >
               Elite Training
             </Typography>
             <Typography
               variant="lead"
               color="white"
-              className=" md:text-3xl font-bold text-lg mt-5"
+              className=" md:text-3xl font-bold text-lg mt-5 font-display"
             >
               Get basketball training from the best
             </Typography>
             <Typography
               variant="lead"
               color="white"
-              className=" md:text-2xl font-bold text-lg mt-5"
+              className=" md:text-2xl font-bold text-lg mt-5 font-display"
             >
               Private or Group Lessons
             </Typography>
             <a href="/signup">
-              <Button className="mt-10 bg-black ">Learn More</Button>
+              <Button className="mt-10 bg-black font-display lg:text-lg ">
+                Learn More
+              </Button>
             </a>
           </div>
         </div>

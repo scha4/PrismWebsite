@@ -3,13 +3,13 @@ import React from "react";
 function AboutUs() {
   return (
     <>
-      <div className="py-12">
+      <div className="py-12 font-display">
         <div className="flex items-center justify-center">
           <img src="./prismLogo.png" className="w-48 h-48 " />
         </div>
         <div className="mx-8 text-lg">
-          <div className="font-bold">What is Prism?</div>
-          <div className="mt-2">
+          <div className="font-bold font-display">What is Prism?</div>
+          <div className="mt-2 font-display ">
             Prism Academy is a consulting firm that uses basketball and sports
             in general as a tool for life. We believe that through sports you
             can learn 5 essential tools for success and confidence. Fostering
@@ -24,7 +24,7 @@ function AboutUs() {
 
         divide-y divide-solid divide-black lg:mx-10 mx-5"
         >
-          <div className="font-normal lg:text-3xl mb-5 text-center italic">
+          <div className="font-normal lg:text-3xl mb-5 text-center italic text-2xl">
             5 Essential tools for success
           </div>
           <div className="py-5  ">

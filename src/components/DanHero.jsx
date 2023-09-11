@@ -1,15 +1,21 @@
 import React from "react";
+import { AiOutlineInstagram, AiFillInstagram } from "react-icons/ai";
 
 function DanHero() {
   return (
     <>
-      <div className="border-b border-gray-500 my-4"></div>
-      <div className="lg:grid grid-cols-2 flex-col py-10 gap-3  ">
+      <div className="border-b border-gray-500 my-4 font-display"></div>
+      <div className="lg:grid grid-cols-2 flex-col py-10 gap-3 font-display ">
+        <h1 className="text-3xl font-semibold text-blue-700 text-center lg:hidden">
+          COACH DAN
+        </h1>
         <div className=" lg:col-start-1 lg:flex item-center justify-center mb-10 flex py-4 ">
           <img src="/danPic3.jpg" className="lg:w-full px-4  " />
         </div>{" "}
         <div className="col-start-2 flex flex-col gap-5 items-center justify-center ">
-          <h1 className="text-3xl font-semibold text-blue-700">COACH DAN</h1>
+          <h1 className="text-3xl font-semibold text-blue-700 hidden lg:flex">
+            COACH DAN
+          </h1>
           <h1 className="lg:text-lg  text-center w-3/4 text-lg">
             <h4 className="font-bold">PRO CAREER</h4>
             <div className="text-lg">
@@ -26,6 +32,12 @@ function DanHero() {
             <h4 className="font-bold mt-3">COACHING</h4>
             <div className="text-lg ">
               <p>BOTHEL HIGH SCHOOL VARSITY</p>
+            </div>
+            <div className="flex flex-col place-items-center">
+              <h4 className="font-bold mt-3">SOCIAL</h4>
+              <a target="_blank" href="https://www.instagram.com/dj_lee40/">
+                <AiFillInstagram size={60} className="hover:fill-blue-500" />
+              </a>
             </div>
           </h1>
         </div>

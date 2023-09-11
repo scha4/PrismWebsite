@@ -5,7 +5,7 @@ import { RiKakaoTalkFill } from "react-icons/ri";
 function ContactInfo() {
   return (
     <>
-      <div className=" hidden bg-black max-w-full h-[600px] md:flex flex-col items-center justify-center">
+      <div className=" hidden bg-black max-w-full h-[600px] md:flex flex-col items-center justify-center font-display">
         <div className="text-white flex flex-col items-center gap-6  ">
           <h3 className="text-3xl">CONTACT US</h3>
         </div>

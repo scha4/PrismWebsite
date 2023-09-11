@@ -2,7 +2,7 @@ import { Typography } from "@material-tailwind/react";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-black p-8">
+    <footer className="w-full bg-black p-8 font-display">
       <div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 text-center md:justify-between">
         <img
           width={0}
@@ -18,7 +18,7 @@ export default function Footer() {
               as="a"
               href="/aboutus"
               color="blue-gray"
-              className="font-bold text-white opacity-80 transition-opacity hover:opacity-100"
+              className="font-bold font-default  text-white opacity-80 transition-opacity hover:opacity-100"
             >
               About Us
             </Typography>
@@ -29,7 +29,7 @@ export default function Footer() {
               as="a"
               href="/contactus"
               color="blue-gray"
-              className="font-bold text-white opacity-80 transition-opacity hover:opacity-100"
+              className="font-default font-bold text-white opacity-80 transition-opacity hover:opacity-100"
             >
               Contact Us
             </Typography>
@@ -40,7 +40,7 @@ export default function Footer() {
       <div className="">
         <Typography
           color="blue-gray"
-          className="text-center font-normal text-xl text-white"
+          className="text-center  font-default  font-normal text-xl text-white font-display"
         >
           &copy; 2023 PRISM HOOPS
         </Typography>

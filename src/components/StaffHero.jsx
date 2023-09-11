@@ -15,7 +15,7 @@ function StaffHero() {
   return (
     <>
       <div className="bg-black py-20">
-        <div className="font-bold flex justify-center text-4xl mb-6 text-white">
+        <div className="font-bold flex justify-center text-4xl mb-6 text-white font-display">
           Meet The Coaches
         </div>
         <div className="lg:flex gap-4 items-center justify-center">

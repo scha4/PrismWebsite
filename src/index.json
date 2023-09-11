@@ -5,14 +5,14 @@
       {
         "id": "1",
         "name": "Coach Eric",
-        "position": "Trainer",
+
         "url": "<a href='/trainers'>Learn More </a>",
         "image": "/CE1.jpg"
       },
       {
         "id": "2",
         "name": "Coach Dan",
-        "position": "Trainer",
+
         "description": "A website for a korean OEM service company called Mandeulja.  This website was created using React, Tailwind CSS, and EmailJs. ",
         "url": "<a href='/trainers'>Learn More </a>",
         "image": "/CD1.jpg"
@@ -20,10 +20,10 @@
       {
         "id": "3",
         "name": "Coach Wonjun",
-        "position": "Trainer",
+
         "description": "A website for a korean OEM service company called Mandeulja.  This website was created using React, Tailwind CSS, and EmailJs. ",
         "url": "<a href='/trainers'>Learn More </a>",
-        "image": "/prismWord.png"
+        "image": "./wonjunpic2.jpg"
       }
     ]
   },

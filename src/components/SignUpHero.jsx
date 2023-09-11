@@ -4,7 +4,7 @@ import { Typography, Button } from "@material-tailwind/react";
 function SignUpHero() {
   return (
     <>
-      <div className="relative ">
+      <div className="relative  ">
         <img
           alt="basketball"
           className="w-full brightness-50 "
@@ -16,14 +16,14 @@ function SignUpHero() {
             <Typography
               variant="lead"
               color="white"
-              className="md:text-3xl font-bold text-md md:mt-2 italic"
+              className="md:text-3xl font-bold text-md md:mt-2 italic font-display"
             >
               PRISM HOOPS
             </Typography>
             <Typography
               variant="lead"
               color="white"
-              className="md:text-4xl font-bold text-lg md:mt-2"
+              className="md:text-4xl font-bold text-lg md:mt-2 font-display"
             >
               PERSONALIZED TRAINING
             </Typography>

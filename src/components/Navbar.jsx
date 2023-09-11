@@ -27,24 +27,26 @@ export default function NavbarMain() {
         className="p-1 font-bold py-2   "
         onClick={() => setDirectoryOpen((prev) => !prev)}
       >
-        <a href="/aboutus" className="flex items-center ">
+        <a href="/aboutus" className="flex items-center font-display  ">
           About Us
         </a>
       </Typography>
 
       <Typography as="li" className="p-1 font-bold  py-2 ">
-        <a href="/trainers" className="flex items-center ">
+        <a href="/trainers" className="flex items-center font-display">
           Trainers
         </a>
       </Typography>
       <Typography as="li" className="p-1 font-bold py-2  ">
-        <a href="/contactus" className="flex items-center">
+        <a href="/contactus" className="flex items-center font-display">
           Contact Us
         </a>
       </Typography>
       <a href="/signup" className=" ">
-        <Button className="bg-white text-black ">
-          <Typography className=" font-bold  text-md ">Sign Up</Typography>{" "}
+        <Button className="bg-white text-black  ">
+          <Typography className=" font-bold  text-md  font-display ">
+            Sign Up
+          </Typography>{" "}
         </Button>{" "}
       </a>
     </ul>

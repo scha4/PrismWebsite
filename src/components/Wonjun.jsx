@@ -1,10 +1,14 @@
 import React from "react";
-
+import {
+  AiOutlineInstagram,
+  AiFillInstagram,
+  AiFillYoutube,
+} from "react-icons/ai";
 function Wonjun() {
   return (
     <>
       <div className="border-b border-gray-500 my-4"></div>
-      <div className="lg:grid grid-cols-2 flex-col py-10 gap-3  ">
+      <div className="lg:grid grid-cols-2 flex-col py-10 gap-3 font-display  ">
         {" "}
         <div className="col-start-1 flex flex-col gap-5 items-center justify-center ">
           <h1 className="text-3xl font-semibold text-blue-700">
@@ -25,10 +29,27 @@ function Wonjun() {
               <p>PEC SPORTS ACADEMY SUWON</p>
               <p>PRISM ACADEMY</p>
             </div>
+            <div className="flex flex-col place-items-center">
+              <h4 className="font-bold mt-3">SOCIAL</h4>
+              <div className="flex item-center justify-center">
+                <a target="_blank" href="https://www.instagram.com/im_wonjun/">
+                  <AiFillInstagram
+                    size={50}
+                    className="hover:fill-blue-500 mt-1"
+                  />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/@ThisIsHowWeHoop"
+                >
+                  <AiFillYoutube size={60} className="hover:fill-blue-500" />
+                </a>
+              </div>
+            </div>
           </h1>
         </div>
         <div className=" lg:col-start-2 lg:flex item-center justify-center mb-10 flex py-4 ">
-          <img src="/prismWord.png" className="lg:w-full px-4  " />
+          <img src="./wonjunpic1.jpg" className="lg:w-3/4  px-4  " />
         </div>
         <div className="lg:hidden flex flex-col items-center justify-center text-lg  ">
           <h4 className="font-bold">PRO CAREER</h4>
@@ -42,6 +63,23 @@ function Wonjun() {
             <p>PEC SPORTS ACADEMY SUWON</p>
             <p>PRISM ACADEMY</p>
           </div>{" "}
+          <div className="flex flex-col place-items-center">
+            <h4 className="font-bold mt-3">SOCIAL</h4>
+            <div className="flex item-center justify-center">
+              <a target="_blank" href="https://www.instagram.com/im_wonjun/">
+                <AiFillInstagram
+                  size={50}
+                  className="hover:fill-blue-500 mt-1"
+                />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/@ThisIsHowWeHoop"
+              >
+                <AiFillYoutube size={60} className="hover:fill-blue-500" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </>
