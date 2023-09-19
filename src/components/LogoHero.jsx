@@ -16,6 +16,11 @@ function LogoHero() {
             className="w-12 h-12 sm:w-24 sm:h-24 "
           />
           <img
+            src="./KBAlogo.jpg"
+            alt="FIBA Logo"
+            className="w-12 h-12 sm:w-24 sm:h-24 "
+          />
+          <img
             src="./NCAALOGO.png"
             alt="NCAA Logo"
             className="w-12 h-12 sm:w-24 sm:h-24 "
