@@ -13,7 +13,7 @@ function ContactInfo() {
           <div className="bg-white w-64 h-32 flex flex-col items-center justify-center rounded-lg">
             <AiOutlineMail size={40} className="fill-black" />
             <h2>E-MAIL</h2>
-            <h2 className="font-bold text-xl">prismhoops@gmail.com</h2>
+            <h2 className="font-bold text-xl">prism.hoopsacademy@gmail.com</h2>
           </div>
           <div className="bg-white w-64 h-32 flex flex-col items-center justify-center rounded-lg ">
             <BsFillTelephoneFill size={40} className="fill-black" />
@@ -37,7 +37,9 @@ function ContactInfo() {
             <div className="bg-white w-64 h-32 flex flex-col items-center justify-center rounded-lg">
               <AiOutlineMail size={40} className="fill-black" />
               <h2>E-MAIL</h2>
-              <h2 className="font-bold text-xl">prismhoops@gmail.com</h2>
+              <h2 className="font-bold text-xl">
+                prism.hoopsacademy@gmail.com
+              </h2>
             </div>
             <div className="bg-white w-64 h-32 flex flex-col items-center justify-center rounded-lg ">
               <BsFillTelephoneFill size={40} className="fill-black" />
