@@ -19,18 +19,19 @@ function DanHero() {
           <h1 className="lg:text-lg  text-center w-3/4 text-lg">
             <h4 className="font-bold">PRO CAREER</h4>
             <div className="text-lg">
-              <h4>PRO CAREER</h4>
               <p>11 PRO PLAYER (EUROPE & ASIA)</p>
               <p>7X KBL ALL-STAR</p>
-              <h4>NATIONAL TEAM</h4>
+              <h4 className="font-bold mt-2">NATIONAL TEAM</h4>
               <p>2X KOREA MENS 5v5 NAT'L TEAM</p>
-              <p>FIBA 3X3 KOREA RANKING #1[2019-2021]</p>
-              <p>FIBA 3X3 NAT'l TEAM</p>
+
+              <p>FIBA 3X3 NAT'L TEAM</p>
               <p>2X FIBA 3x3 WORLD CUP</p>
               <p>2020 TOKYO OLYMPIC QUALIFIERS</p>
+              <p>FIBA 3X3 KOREA RANKING #1[2019-2021]</p>
             </div>
             <h4 className="font-bold mt-3">COACHING</h4>
             <div className="text-lg ">
+              <p>BFL PREP ACADEMY</p>
               <p>BOTHEL HIGH SCHOOL VARSITY</p>
             </div>
             <div className="flex flex-col place-items-center">
