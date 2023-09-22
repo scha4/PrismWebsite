@@ -9,7 +9,7 @@ function Camp() {
         <div className="md:grid grid-cols-2 h-auto">
           <div className="mx-auto max-w-screen-xl col-span-1 flex flex-col md:items-left justify-center space-y-7  mt-6">
             <h1 className="text-2xl font-bold lg:ml-5 text-center ">
-              By Any Means Basketball X Prism Hoops Work Out Sign Up
+              By Any Means Basketball X Prism Hoops Busan
             </h1>
 
             <video className="h-full w-full rounded-lg  md:hidden" controls>
@@ -20,15 +20,15 @@ function Camp() {
             <div>
               <ul className="list-disc list-inside text-lg lg:ml-5 mx-2">
                 <li>Program : By Any Means Pro Work Out</li>
-                <li>Date : October 8th Sunday</li>
-                <li>Location : Myeongji High School</li>
+                <li>Date : October 7th Saturday</li>
+                <li>Location : High Sports Center</li>
                 <li>Sign Up Date : 9.11 ~ 10.1</li>
                 <li>Fee : 70,000 won</li>
               </ul>
             </div>
             <a
               target="_blank"
-              href="https://docs.google.com/forms/d/1DtsDoCZA_kv87_mIgdUhxSukWWgps6TawzgMQmeQHGY/viewform?edit_requested=true"
+              href="https://docs.google.com/forms/d/1AcRyRfjNeLqrUSam0pGJvckNSN-4wX5eOpl5fcDz6R0/viewform?edit_requested=true"
             >
               <div className="flex items-center justify-center ">
                 <Button className=" bg-black lg:w-1/3  font-display text-lg ">
