@@ -14,7 +14,7 @@ function HomePage() {
     <>
       <div className="font-display">
         <NavbarMain />
-        <CurrentEvent />
+        {/* <CurrentEvent /> */}
         <VideoBack />
 
         <Hero2 />
