@@ -75,6 +75,24 @@ function LogoHero() {
             className="w-12 h-12 sm:w-24 sm:h-24 "
           />
         </div>
+
+        <div className="flex items-center justify-center gap-2 sm:gap-10 mt-10">
+          <img
+            src="./BFLPREP.JPG"
+            alt="BFLPREP"
+            className="w-16 h-16 sm:w-28 sm:h-28 "
+          />
+          <img
+            src="./BOTHELL.JPG"
+            alt="BFLPREP"
+            className="w-16 h-16 sm:w-28 sm:h-28"
+          />
+          <img
+            src="./WIAA.JPG"
+            alt="BFLPREP"
+            className="w-20 h-16 sm:w-36 sm:h-28"
+          />
+        </div>
         <div className="flex items-center justify-center gap-2 sm:gap-10 mt-10">
           <img
             src="./TEAMKOREALOGO.JPG"
