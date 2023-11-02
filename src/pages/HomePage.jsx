@@ -14,13 +14,14 @@ function HomePage() {
     <>
       <div className="font-display">
         <NavbarMain />
-        {/* <CurrentEvent /> */}
+
         <VideoBack />
 
         <Hero2 />
         <Hero />
         <LogoHero />
         <StaffHero />
+        <CurrentEvent />
         <LocationHero />
         <Footer />
       </div>

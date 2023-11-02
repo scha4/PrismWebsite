@@ -5,6 +5,7 @@ import EventsPage from "./pages/EventsPage";
 import AboutUsPage from "./pages/AboutUsPage";
 import SignUpPage from "./pages/SignUpPage";
 import ContactUsPage from "./pages/ContactUsPage";
+import ByAnyMeansCamp from "./pages/ByAnyMeansCamp";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
         <Route path="/events" element={<EventsPage />}></Route>
         <Route path="/signup" element={<SignUpPage />}></Route>
         <Route path="/contactus" element={<ContactUsPage />}></Route>
+        <Route path="/byAnyMeans" element={<ByAnyMeansCamp />}></Route>
       </Routes>
     </>
   );
