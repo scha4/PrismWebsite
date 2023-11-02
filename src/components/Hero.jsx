@@ -11,7 +11,7 @@ function Hero() {
           height="0"
           sizes="100vw"
           className="w-full"
-          src="/testPic2.JPG"
+          src="/testPic2-min.JPG"
         />
 
         <div className="absolute inset-0 grid h-full w-5/6 place-items-center ">
