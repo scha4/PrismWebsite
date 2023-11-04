@@ -4,7 +4,7 @@ export default function VideoBack() {
   return (
     <>
       <div className="relative ">
-        <video autoPlay muted playsInline loop className="w-full brightness-50">
+        <video muted playsInline loop className="w-full brightness-50">
           <source src="./test1.MP4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 grid h-full w-5/6 place-items-center ">
