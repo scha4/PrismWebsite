@@ -8,7 +8,7 @@ function AboutHero() {
         <img
           alt="basketball"
           className="w-full brightness-75"
-          src="./prismcamp2023.JPG"
+          src="./prismcamp2023-min.JPG"
         />
 
         <figcaption className="absolute text-5xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
