@@ -22,11 +22,8 @@ function Hero2() {
           <div className=" lg:flex items-center justify-center pt-10 pb-10 ">
             <img
               src="./campPic1.jpg"
-              className=" lg:w-5/6 max-h-96 rounded-lg  "
+              className="  max-h-96 rounded-lg max-w-full "
               alt="leaderImage"
-              width={0}
-              height={0}
-              sizes="100vw"
             />
           </div>
         </div>
